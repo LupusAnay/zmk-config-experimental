@@ -10,17 +10,20 @@
 #define MIDI          9
 
 #define GAME_DEFAULT  10
-#define GAME_ELDEN    11
-#define GAME_NUMPAD   12
+#define GAME_PRO      11
+#define GAME_EXTRA    12
 
-#define FN            13
+#define GAME_ELDEN    13
+#define GAME_NUMPAD   14
 
-#define LOCK          14
-#define UNLOCK        15
+#define FN            15
+
+#define LOCK          16
+#define UNLOCK        17
 
 
 #define HOLD_LAYERS   NAV SHORTCUTS SYMBOLS FN
 #define TOGGLE_LAYERS ALPHA MOUSE NUMPAD NUM_ROW CAPS_WORD POT_PLAYER MIDI
-#define GAME_LAYERS   GAME_ELDEN GAME_DEFAULT 
+#define GAME_LAYERS   GAME_ELDEN GAME_DEFAULT GAME_PRO GAME_EXTRA
 
 #define ALL_LAYERS    HOLD_LAYERS TOGGLE_LAYERS

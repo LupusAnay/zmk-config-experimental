@@ -16,5 +16,5 @@
 
 #include "./layers/include.h"
 
-#include "./combos.dtsi"
+#include "./combos/include.h"
 #include "./leader.dtsi"
