@@ -1,0 +1,19 @@
+/* LEFT PIECE */
+/* horizontal combos */
+COMBO(game_t,           LT1 LT2,      &kp T,                 GAME_LAYERS)
+COMBO(game_g,           LT3 LT2,      &kp G,                 GAME_LAYERS)
+COMBO(game_del,         LT4 LT3,      &kp DEL,               GAME_LAYERS)
+
+COMBO(game_bspc,        LM4 LM3,      &kp BSPC,              GAME_LAYERS)
+COMBO(game_enter,       LM1 LM0,      &kp ENTER,             GAME_LAYERS)
+
+COMBO(game_b,           LB1 LB2,      &kp B,                 GAME_LAYERS)
+
+/* vertical combos */
+//COMBO(amd_screenshot,   LT3 LM3,      AMD_SCRNSHT,           GAME_LAYERS)
+//COMBO(amd_record,       LT2 LM2,      AMD_RECORD,            GAME_LAYERS)
+//COMBO(amd_overlay,      LT1 LM1,      AMD_OVERLAY,           GAME_LAYERS)
+
+/* layers entry combos */
+COMBO_SLOW(game_fps,    LM3 LT2 LM1,  &to GAME_FPS,          ALL_LAYERS)
+COMBO(to_game_default,  LT3 LT1,      &to GAME_DEFAULT,      ALL_LAYERS)
